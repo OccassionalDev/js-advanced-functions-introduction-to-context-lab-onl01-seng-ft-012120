@@ -18,5 +18,7 @@ let createEmployeeRecords = function (employeeData) {
 };
 
 let createTimeInEvent = function (employee, dateStamp) {
-  let [date, hour] = dateStamp.split(" ")
+  let [date, hour] = dateStamp.split(" ");
+  
+  return employee.push
 };
