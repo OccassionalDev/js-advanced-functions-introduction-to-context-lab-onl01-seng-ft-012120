@@ -42,6 +42,6 @@ let createTimeOutEvent = function (employee, dateStamp) {
 };
 
 let hoursWorkedOnDate = function (employee, hoursWorked) {
-  
+  let timeInDate = function ()
 };
 
