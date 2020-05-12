@@ -21,6 +21,6 @@ let createTimeInEvent = function (employee, dateStamp) {
   let [date, hour] = dateStamp.split(" ");
   
   return employee.timeInEvents.push(
-      timeInEvents
+      type: ""
     );
 };
