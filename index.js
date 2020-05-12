@@ -1,7 +1,7 @@
 // Your code here
 
-function createEmployeeRecord(firstName, familyName, title, payRate) {
+let createEmployeeRecord = function (array) {
   return {
-    firstName: 
+    firstName:
   };
 }
