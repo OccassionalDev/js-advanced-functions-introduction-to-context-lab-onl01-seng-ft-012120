@@ -16,3 +16,7 @@ let createEmployeeRecords = function (employeeData) {
     return createEmployeeRecord(data);
   });
 };
+
+let createTimeInEvent = function (employee, dateStamp) {
+  
+};
