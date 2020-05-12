@@ -1,6 +1,6 @@
 // Your code here
 
-let createEmployeeRecord = function (array) {
+let createEmployeeRecord = function (data) {
   return {
     firstName:
   };
