@@ -20,9 +20,11 @@ let createEmployeeRecords = function (employeeData) {
 let createTimeInEvent = function (employee, dateStamp) {
   let [date, hour] = dateStamp.split(" ");
   
-  return employee.timeInEvents.push({
+  employee.timeInEvents.push({
       type: "TimeIn",
       hour: parseInt(hour, 10),
       date
     });
+    
+    return employee;
 };
