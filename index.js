@@ -28,3 +28,16 @@ let createTimeInEvent = function (employee, dateStamp) {
     
   return employee;
 };
+
+let createTimeOutEvent = function (employee, dateStamp) {
+  let [date, hour] = dateStamp.split(" ");
+  
+  employee.timeTimeOutEvents.push({
+      type: "TimeOut",
+      hour: parseInt(hour, 10),
+      date
+    });
+    
+  return employee;
+};
+
