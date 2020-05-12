@@ -10,3 +10,7 @@ let createEmployeeRecord = function (data) {
     timeOutEvents: []
   };
 };
+
+let createEmployeeRecords = function (employeeData) {
+  
+};
