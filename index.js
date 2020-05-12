@@ -50,6 +50,6 @@ let hoursWorkedOnDate = function (employee, dateToFind) {
     return event.date === dateToFind;
   });
   
-  return (timeInDay - timeOutDay)
+  return (timeInDay.hour - timeOutDay.hour);
 };
 
