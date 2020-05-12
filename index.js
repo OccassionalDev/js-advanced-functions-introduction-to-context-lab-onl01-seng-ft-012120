@@ -12,5 +12,7 @@ let createEmployeeRecord = function (data) {
 };
 
 let createEmployeeRecords = function (employeeData) {
-  employeeData.map(function())
+  employeeData.map(function(data) {
+    return createEmployeeRecord(data);
+  });
 };
