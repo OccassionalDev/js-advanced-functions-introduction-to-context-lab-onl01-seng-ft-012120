@@ -42,7 +42,7 @@ let createTimeOutEvent = function (employee, dateStamp) {
 };
 
 let hoursWorkedOnDate = function (employee, hoursWorked) {
-  let timeInDate = employee.timeInEvents.find(function() {
+  let timeInDate = employee.timeInEvents.find(function(event) {
     
   })
 };
