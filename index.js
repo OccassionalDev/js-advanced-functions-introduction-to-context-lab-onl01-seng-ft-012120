@@ -12,5 +12,5 @@ let createEmployeeRecord = function (data) {
 };
 
 let createEmployeeRecords = function (employeeData) {
-  employeeData.map
+  employeeData.map(function())
 };
