@@ -49,5 +49,7 @@ let hoursWorkedOnDate = function (employee, dateToFind) {
   let timeOutDate = employee.timeOutDate.find(function(event) {
     return event.date === dateToFind;
   });
+  
+  return timeInDay
 };
 
