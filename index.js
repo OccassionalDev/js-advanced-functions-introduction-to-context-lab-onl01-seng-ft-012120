@@ -2,6 +2,7 @@
 
 let createEmployeeRecord = function (data) {
   return {
-    firstName:
+    firstName: data[0],
+    familyName: data[1]
   };
 }
