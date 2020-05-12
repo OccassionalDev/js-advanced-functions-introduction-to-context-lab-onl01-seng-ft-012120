@@ -26,5 +26,5 @@ let createTimeInEvent = function (employee, dateStamp) {
       date
     });
     
-    return employee;
+  return employee;
 };
